@@ -275,6 +275,14 @@ header.sixteen.columns {
 
 /* SCSS Front Page Property Carousel
  ------------------------------------- */
+#front-page-listing-carousel .well {
+  padding: 29px 29px;
+}
+
+.carousel-inner .item .row {
+  margin-bottom: 0;
+}
+
 .carousel-control {
   padding-top: 10%;
   width: 5%;
@@ -326,11 +334,11 @@ header.sixteen.columns {
 }
 
 .fp-feat-carousel-nav.right.carousel-control {
-  right: -27px;
+  right: -37px;
 }
 
 .fp-feat-carousel-nav.left.carousel-control {
-  left: -27px;
+  left: -37px;
 }
 
 /** Property Slider **/
@@ -356,8 +364,8 @@ header.sixteen.columns {
 }
 #carousel h1 {
   color: #fff;
-  margin: 0.1em 0.5em;
   text-align: center;
+  padding-top: 0.5em;
 }
 #carousel h3 {
   color: #fff;
