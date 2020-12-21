@@ -1,0 +1,55 @@
+/** SCSS Header
+----------------------------------- */
+header.sixteen.columns {
+  margin-top: 3.618em;
+}
+.feature {
+  a {
+    img {
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
+.desktop.ah-button.front-page-cta-top-btn {
+  width: 100%;
+  padding: 1.618em 0;
+}
+.row.header-features {
+  height: 104px;
+  max-height: 104px;
+  .col-md-3, .col-md-6, .col-sm-3, .col-sm-6 {
+    height: 100%;
+    min-height: 100%;
+  }
+  .front-page-cta-top {
+    height: 100%;
+    a.ah-button h2 {
+      color: #46707c;
+      text-decoration: none;
+      outline: 0;
+    }
+    .front-page-cta-top-btn {
+      height: 100%;
+      border-radius: 0;
+    }
+  }
+}
+.header-info-wrap.bg-gradient {
+  height: 100%;
+  .telephone {
+    color: #f5f5f5;
+    padding: 10px;
+    h1, h2, h3 {
+      color: #f5f5f5;
+    }
+    a h3, a h2 {
+      color: #f5f5f5;
+    }
+    h2 {
+      font-size: 1.9rem;
+    }
+  }
+}

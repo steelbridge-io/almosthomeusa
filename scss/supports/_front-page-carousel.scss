@@ -1,0 +1,96 @@
+/* SCSS Front Page Property Carousel
+ ------------------------------------- */
+
+.carousel-control {
+  padding-top:10%;
+  width:5%;
+}
+
+.flex-direction-nav {
+  display: none;
+}
+
+.featured-prop-img {
+  height: 100px;
+  max-height: 100px;
+  object-fit: cover;
+  width: 200px;
+}
+
+.feat-prop-title {
+  a {
+    text-decoration: none;
+  }
+  font-size: 1.2rem;
+  margin-top: 1em;
+  margin-bottom: .2em;
+}
+.prop-loc {
+  a {
+    text-decoration: none;
+  }
+  font-style: oblique;
+  font-size: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.prop-desc {
+  a {
+    text-decoration: none;
+  }
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.fp-feat-carousel-nav.left.carousel-control,
+.fp-feat-carousel-nav.right.carousel-control {
+  font-size: 100px;
+  color: #46707c;
+}
+.fp-feat-carousel-nav.right.carousel-control {
+  right: -27px;
+}
+.fp-feat-carousel-nav.left.carousel-control {
+  left: -27px;
+}
+
+/** Property Slider **/
+
+.slides.marT10 {
+  li{
+    padding: 0 .5em;
+  }
+}
+.flexslider .slides > li {
+  margin-right: 6px !important;
+}
+
+.flexslider {
+  padding: .8em !important;
+}
+.flex-viewport {
+  width: 97%;
+  margin: 0 auto;
+}
+#carousel {
+  background-color: rgba(0, 0, 0, 0.8);
+  h1 {
+    color: #fff;
+    margin: 0.1em 0.5em;
+    text-align: center;
+  }
+  h3 {
+    color: #fff;
+    margin: 0.1em 0.8em;
+  }
+}
+.featured-listing-info {
+  h5 a {
+    color: #fff;
+  }
+  p {
+    color: $gold !important;
+  }
+}
+

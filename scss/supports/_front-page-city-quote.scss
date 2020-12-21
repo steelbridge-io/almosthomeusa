@@ -1,0 +1,188 @@
+/** SCSS Front Page Top Section: where the city search and request a quote is.
+------------------------------------------------------------------------------------ */
+#carousel {
+  .flex-direction-nav {
+    top: 6% !important;
+    left: 87% !important;
+    padding: .5em;
+    background-color: #ccc;
+    border-radius: 10%;
+    width: 59px !important;
+  }
+}
+.card.cta {
+  position: relative;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  background-image: url('https://dev2.almosthomeusa.com/wp-content/uploads/65386273.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  .card-body.home-city-search {
+    .row {
+      margin-bottom: 0;
+      .col-6 {
+        h3 {
+          color: $white;
+        }
+      }
+    }
+    padding: .618em 0;
+    width: 80%;
+    border-radius: 0;
+    margin: 3.2em auto;
+  }
+}
+.inner.container {
+  overflow: hidden;
+}
+.well.bg-transparent {
+  background: transparent;
+  border: none;
+}
+
+.row.city-search-row {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1em;
+  margin-top: 2.618em;
+  height: auto;
+  .feature {
+    height: auto;
+    .columns {
+      height: auto;
+      .home-city-search {
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+// Request a Quote Form
+#gform_4 {
+  .gform_body {
+    #gform_fields_4 {
+      width: 100%;
+      // Name
+      #field_4_13 {
+        width: 100%;
+      }
+      // Email
+      #field_4_15 {
+        width: 50%;
+      }
+      // Phone
+      #field_4_14 {
+        width: 50%;
+      }
+      // State
+      #field_4_10 {
+        width: 30%;
+      }
+      // City
+      #field_4_11 {
+        width: 30%;
+      }
+      // Bedrooms
+      #field_4_8 {
+        width: 30%;
+      }
+      // Start Date
+      #field_4_4 {
+        width: 50%;
+      }
+      // End Date
+      #field_4_7 {
+        width: 50%;
+      }
+
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .request-quote-btn-display-mobile {
+    display: none;
+  }
+
+  #collapseExample.collapse.request-quote-display-mobile {
+    display: none;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .well.bg-transparent nav {
+    margin-bottom: 1.618em !important;
+  }
+  .feature a img {
+    width: 30%;
+    transition: 0.5s;
+  }
+  .request-quote-display-desktop {
+    display: none !important;
+  }
+  .row.header-features {
+    height: auto;
+    max-height: 100%;
+    .feature:nth-child(n + 2) {
+      margin-top: 1.618em;
+    }
+  }
+
+  .row.city-search-row {
+    height: auto;
+    .feature {
+      height: auto;
+      .columns {
+        position: relative;
+        z-index: 10000;
+        height: auto;
+        .home-city-search {
+          height: auto;
+          display: block;
+        }
+      }
+    }
+  }
+
+  .request-quote-btn-display-mobile.btn.btn-primary {
+    margin-top: 1.618em;
+  }
+
+
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .feature a img {
+    width: 30%;
+    transition: 0.5s;
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .feature a img {
+    width: 30%;
+    transition: 0.5s;
+  }
+}
+
+

@@ -1,0 +1,51 @@
+/** SCSS Global Colors Fonts
+
+- buttons
+- gradients
+
+--------------------------------------------- */
+
+/* buttons */
+.btn-dark {
+  background-color: $black;
+  color: $white;
+}
+
+/* gradients */
+.bg-gradient {
+  background-color: #1f6b75;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1f6b75), to(#9fc6d7));
+  background-image: -webkit-linear-gradient(top, #1f6b75, #9fc6d7);
+  background-image: -moz-linear-gradient(top, #1f6b75, #9fc6d7);
+  background-image: -o-linear-gradient(top, #1f6b75, #9fc6d7);
+  background-image: -ms-linear-gradient(top, #1f6b75, #9fc6d7);
+  background-image: linear-gradient(top, #1f6b75, #9fc6d7);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorStr='#1f6b75', EndColorStr='#9fc6d7');
+  border: 1px solid #89b6c6;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+  color: #DCDEE0;
+  overflow: hidden;
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 999;
+}
+.yellow-bg-gradient {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+  background: -moz-linear-gradient(center top, #ffec64 5%, #ffab23 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
+  background-color: #ffec64;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #ffaa22;
+  display: inline-block;
+  color: #333333;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #ffee66;
+}

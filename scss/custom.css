@@ -1,0 +1,374 @@
+/** Custom SCSS
+----------------------------------------------- */
+/** SCSS Variables
+========================== */
+/** SCSS Nav
+------------------------------------------ */
+header.sixteen.columns .well.bg-transparent nav {
+  width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  header.sixteen.columns .well.bg-transparent {
+    height: 84px;
+  }
+}
+/** SCSS Header
+----------------------------------- */
+header.sixteen.columns {
+  margin-top: 3.618em;
+}
+
+.feature a img {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.desktop.ah-button.front-page-cta-top-btn {
+  width: 100%;
+  padding: 1.618em 0;
+}
+
+.row.header-features {
+  height: 104px;
+  max-height: 104px;
+}
+.row.header-features .col-md-3, .row.header-features .col-md-6, .row.header-features .col-sm-3, .row.header-features .col-sm-6 {
+  height: 100%;
+  min-height: 100%;
+}
+.row.header-features .front-page-cta-top {
+  height: 100%;
+}
+.row.header-features .front-page-cta-top a.ah-button h2 {
+  color: #46707c;
+  text-decoration: none;
+  outline: 0;
+}
+.row.header-features .front-page-cta-top .front-page-cta-top-btn {
+  height: 100%;
+  border-radius: 0;
+}
+
+.header-info-wrap.bg-gradient {
+  height: 100%;
+}
+.header-info-wrap.bg-gradient .telephone {
+  color: #f5f5f5;
+  padding: 10px;
+}
+.header-info-wrap.bg-gradient .telephone h1, .header-info-wrap.bg-gradient .telephone h2, .header-info-wrap.bg-gradient .telephone h3 {
+  color: #f5f5f5;
+}
+.header-info-wrap.bg-gradient .telephone a h3, .header-info-wrap.bg-gradient .telephone a h2 {
+  color: #f5f5f5;
+}
+.header-info-wrap.bg-gradient .telephone h2 {
+  font-size: 1.9rem;
+}
+
+/** SCSS Image Backstretch
+------------------------------------------------ */
+/** SCSS Front Page Top Section: where the city search and request a quote is.
+------------------------------------------------------------------------------------ */
+#carousel .flex-direction-nav {
+  top: 6% !important;
+  left: 87% !important;
+  padding: 0.5em;
+  background-color: #ccc;
+  border-radius: 10%;
+  width: 59px !important;
+}
+
+.card.cta {
+  position: relative;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  background-image: url("https://dev2.almosthomeusa.com/wp-content/uploads/65386273.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card.cta .card-body.home-city-search {
+  padding: 0.618em 0;
+  width: 80%;
+  border-radius: 0;
+  margin: 3.2em auto;
+}
+.card.cta .card-body.home-city-search .row {
+  margin-bottom: 0;
+}
+.card.cta .card-body.home-city-search .row .col-6 h3 {
+  color: #f5f5f5;
+}
+
+.inner.container {
+  overflow: hidden;
+}
+
+.well.bg-transparent {
+  background: transparent;
+  border: none;
+}
+
+.row.city-search-row {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1em;
+  margin-top: 2.618em;
+  height: auto;
+}
+.row.city-search-row .feature {
+  height: auto;
+}
+.row.city-search-row .feature .columns {
+  height: auto;
+}
+.row.city-search-row .feature .columns .home-city-search {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#gform_4 .gform_body #gform_fields_4 {
+  width: 100%;
+}
+#gform_4 .gform_body #gform_fields_4 #field_4_13 {
+  width: 100%;
+}
+#gform_4 .gform_body #gform_fields_4 #field_4_15 {
+  width: 50%;
+}
+#gform_4 .gform_body #gform_fields_4 #field_4_14 {
+  width: 50%;
+}
+#gform_4 .gform_body #gform_fields_4 #field_4_10 {
+  width: 30%;
+}
+#gform_4 .gform_body #gform_fields_4 #field_4_11 {
+  width: 30%;
+}
+#gform_4 .gform_body #gform_fields_4 #field_4_8 {
+  width: 30%;
+}
+#gform_4 .gform_body #gform_fields_4 #field_4_4 {
+  width: 50%;
+}
+#gform_4 .gform_body #gform_fields_4 #field_4_7 {
+  width: 50%;
+}
+
+@media (min-width: 992px) {
+  .request-quote-btn-display-mobile {
+    display: none;
+  }
+
+  #collapseExample.collapse.request-quote-display-mobile {
+    display: none;
+  }
+}
+@media (max-width: 991.98px) {
+  .well.bg-transparent nav {
+    margin-bottom: 1.618em !important;
+  }
+
+  .feature a img {
+    width: 30%;
+    transition: 0.5s;
+  }
+
+  .request-quote-display-desktop {
+    display: none !important;
+  }
+
+  .row.header-features {
+    height: auto;
+    max-height: 100%;
+  }
+  .row.header-features .feature:nth-child(n+2) {
+    margin-top: 1.618em;
+  }
+
+  .row.city-search-row {
+    height: auto;
+  }
+  .row.city-search-row .feature {
+    height: auto;
+  }
+  .row.city-search-row .feature .columns {
+    position: relative;
+    z-index: 10000;
+    height: auto;
+  }
+  .row.city-search-row .feature .columns .home-city-search {
+    height: auto;
+    display: block;
+  }
+
+  .request-quote-btn-display-mobile.btn.btn-primary {
+    margin-top: 1.618em;
+  }
+}
+@media (max-width: 767.98px) {
+  .feature a img {
+    width: 30%;
+    transition: 0.5s;
+  }
+}
+@media (max-width: 575.98px) {
+  .feature a img {
+    width: 30%;
+    transition: 0.5s;
+  }
+}
+/** SCSS Global Colors Fonts
+
+- buttons
+- gradients
+
+--------------------------------------------- */
+/* buttons */
+.btn-dark {
+  background-color: #000000;
+  color: #f5f5f5;
+}
+
+/* gradients */
+.bg-gradient {
+  background-color: #1f6b75;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1f6b75), to(#9fc6d7));
+  background-image: -webkit-linear-gradient(top, #1f6b75, #9fc6d7);
+  background-image: -moz-linear-gradient(top, #1f6b75, #9fc6d7);
+  background-image: -o-linear-gradient(top, #1f6b75, #9fc6d7);
+  background-image: -ms-linear-gradient(top, #1f6b75, #9fc6d7);
+  background-image: linear-gradient(top, #1f6b75, #9fc6d7);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorStr="#1f6b75", EndColorStr="#9fc6d7");
+  border: 1px solid #89b6c6;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+  color: #DCDEE0;
+  overflow: hidden;
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 999;
+}
+
+.yellow-bg-gradient {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+  background: -moz-linear-gradient(center top, #ffec64 5%, #ffab23 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffec64", endColorstr="#ffab23");
+  background-color: #ffec64;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #ffaa22;
+  display: inline-block;
+  color: #333333;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #ffee66;
+}
+
+/* SCSS Front Page Property Carousel
+ ------------------------------------- */
+.carousel-control {
+  padding-top: 10%;
+  width: 5%;
+}
+
+.flex-direction-nav {
+  display: none;
+}
+
+.featured-prop-img {
+  height: 100px;
+  max-height: 100px;
+  object-fit: cover;
+  width: 200px;
+}
+
+.feat-prop-title {
+  font-size: 1.2rem;
+  margin-top: 1em;
+  margin-bottom: 0.2em;
+}
+.feat-prop-title a {
+  text-decoration: none;
+}
+
+.prop-loc {
+  font-style: oblique;
+  font-size: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.prop-loc a {
+  text-decoration: none;
+}
+
+.prop-desc {
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.prop-desc a {
+  text-decoration: none;
+}
+
+.fp-feat-carousel-nav.left.carousel-control,
+.fp-feat-carousel-nav.right.carousel-control {
+  font-size: 100px;
+  color: #46707c;
+}
+
+.fp-feat-carousel-nav.right.carousel-control {
+  right: -27px;
+}
+
+.fp-feat-carousel-nav.left.carousel-control {
+  left: -27px;
+}
+
+/** Property Slider **/
+.slides.marT10 li {
+  padding: 0 0.5em;
+}
+
+.flexslider .slides > li {
+  margin-right: 6px !important;
+}
+
+.flexslider {
+  padding: 0.8em !important;
+}
+
+.flex-viewport {
+  width: 97%;
+  margin: 0 auto;
+}
+
+#carousel {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#carousel h1 {
+  color: #fff;
+  margin: 0.1em 0.5em;
+  text-align: center;
+}
+#carousel h3 {
+  color: #fff;
+  margin: 0.1em 0.8em;
+}
+
+.featured-listing-info h5 a {
+  color: #fff;
+}
+.featured-listing-info p {
+  color: #ffab23 !important;
+}
+
+/*# sourceMappingURL=custom.css.map */
