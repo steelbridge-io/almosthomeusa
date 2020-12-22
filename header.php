@@ -123,11 +123,7 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
     <div class="well bg-transparent">
       <?php ct_nav(); ?>
     </div>
-    <!-- <div id="carousel" class="flexslider" style="border:0px;"> -->
-    <div id="carousel" style="border:0px">
-      <h1>Almost Home Featured Listings</h1>
-      <?php do_action('front-page-carousel'); ?>
-    </div>
+    
     
     <div class="row city-search-row d-flex">
       <div class="col-md-4 feature d-flex">
@@ -175,14 +171,23 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
             </div>
           </div>
         </div>
-        
-        
-        
-        
         <!-- Button trigger modal -->
-        
       </div>
     </div>
+  
+  
+  
+  
+    <div id="carousel" style="border:0px">
+      <h1>Almost Home Featured Listings</h1>
+      <?php do_action('front-page-carousel'); ?>
+    </div>
+    
+    
+    
+    
+    
+    
   </div>
 
   <?php } ?>

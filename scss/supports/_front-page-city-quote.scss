@@ -37,8 +37,16 @@
   overflow: hidden;
 }
 .well.bg-transparent {
-  background: transparent;
+  background-color: rgba(0, 0, 0, 0.7);
   border: none;
+  nav {
+    #nav {
+      ul#menu-main-nav {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
 }
 
 .row.city-search-row {

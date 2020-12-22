@@ -30,8 +30,9 @@
 }
 
 .feat-prop-title {
-  a {
+  a.fp-title-link {
     text-decoration: none;
+    color: $white;
   }
   font-size: 1.2rem;
   margin-top: 1em;

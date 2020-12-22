@@ -23,53 +23,9 @@ if (!empty($_GET['search-listings'])) {
 
 get_header(); ?>
 
-<!-- section class="sixteen columns alpha omega marT40" -->
-
-<!-- div id="carousel" class="flexslider sixteen columns alpha omega"-->
-
 <div id="carousel" class="flexslider" style="border:0px;">
   <h1>Corporate Housing from Almost Home</h1>
-  <h3>Featured Listings</h3>
-  <ul class="slides marT10">
-    
-    <?php
-    
-    $args = array(
-      
-      'status' => 'featured',
-      
-      'post_type' => 'listings',
-      
-      'posts_per_page' => 8
-    
-    );
-    
-    query_posts($args);
-    
-    if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-      
-      <?php $city = get_post_meta( $post->ID, '_ah_listing_city', true ); ?>
-      <li>
-        <div class="img-wrap">
-          <?php ct_status(); ?>
-          
-          <?php ct_first_image_linked(); ?>
-        </div>
-        <div class="featured-listing-info marT6 marL10">
-          <h5 class="marB0"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-          <p class="location marB8"><?php echo $city; ?>, <?php state(); ?> <?php zipcode(); ?></p>
-          <?php if( (get_post_meta($post->ID, "_ct_price", true)) != "" ) { ?><p class="price marB0"><strong><?php currency(); ?><?php listing_price(); ?></strong><?php if(has_status('for-rent') || has_status('rental')) { echo " /month"; } ?></p><?php } ?>
-          <p class="propinfo marB0"><?php if(has_type('land') || has_type('lot')) { ?><?php echo get_post_meta($post->ID, "lotsize_value", true); ?> <?php acres(); ?><?php } elseif(has_type('commercial')) { ?><?php // Display Nothing ?><?php } else { ?><?php beds(); ?> <?php baths(); ?><?php  if((get_post_meta($post->ID, "_ct_sqft", true))) { ?> | <?php echo get_post_meta($post->ID, "_ct_sqft", true); ?> <?php sqftsqm(); ?><?php } ?><?php } ?></p>
-        </div>
-      </li>
-    <?php endwhile; endif; ?>
-    
-    <?php wp_reset_query(); ?>
-  
-  </ul>
 </div>
-
-<!-- /section -->
 
 <div id="featured-listings" class="sixteen columns alpha omega hero-unit" >
   <div class="eight columns">
