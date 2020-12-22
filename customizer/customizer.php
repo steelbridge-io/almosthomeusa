@@ -2,7 +2,7 @@
   /*
    * Customizer
    * */
-  
+  add_action( 'customize_register', 'almosthome_customize_register' );
   function almosthome_customize_register( $wp_customize ) {
     // Front Page Properties Carousel
     $wp_customize->add_section( 'almosthome_carousel' , array(
@@ -1429,15 +1429,4 @@
       'description' => '',
       'settings'  => 'feat_prop_sixteen_desc'
     ) );
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   }
-  add_action( 'customize_register', 'almosthome_customize_register' );
