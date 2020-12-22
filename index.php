@@ -24,7 +24,7 @@ if (!empty($_GET['search-listings'])) {
 get_header(); ?>
 
 <div id="carousel" class="flexslider" style="border:0px;">
-  <h1>Corporate Housing from Almost Home</h1>
+  <h1>Corporate Housing By Almost Home USA</h1>
 </div>
 
 <div id="featured-listings" class="sixteen columns alpha omega hero-unit" >

@@ -58,7 +58,7 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
 	<?php wp_head(); ?>
   <?php if (is_page()) { // load scripts on city pages ?>
 
-    <!-- <script src="https://almosthomeusa.steelbridge.io/wp-content/themes/almosthome/js/cityMaster.js"> --></script>
+    <!-- <script src="https://almosthomeusa.steelbridge.io/wp-content/themes/almosthome/js/cityMaster.js"></script> -->
 
   <?php } ?>
   <script>
@@ -124,7 +124,6 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
       <?php ct_nav(); ?>
     </div>
     
-    
     <div class="row city-search-row d-flex">
       <div class="col-md-4 feature d-flex">
         <div class="10 columns">
@@ -160,12 +159,9 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
           <!--<img src="https://dev2.almosthomeusa.com/wp-content/uploads/65386273.jpg" class="card-img-top" alt="Almost Home USA"> -->
           <div class="card-body home-city-search">
             <div class="row d-flex">
-              <div class="col-6 d-flex justify-content-center">
-                <h3 class="text-center">May We Provide You With a Quote?</h3>
-              </div>
-              <div class="col-6 d-flex justify-content-center">
+              <div class="col-12">
               <button type="button" class="btn ah-button" data-toggle="modal" data-target="#exampleModalCenter">
-                Request A Quote
+                <h3>Request A Quote</h3>
               </button>
               </div>
             </div>
@@ -174,10 +170,7 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
         <!-- Button trigger modal -->
       </div>
     </div>
-  
-  
-  
-  
+    
     <div id="carousel" style="border:0px">
       <h1>Almost Home Featured Listings</h1>
       <?php do_action('front-page-carousel'); ?>
