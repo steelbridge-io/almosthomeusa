@@ -260,52 +260,52 @@
                   <?php $fp_fourteen_image = get_theme_mod('featured_property_fourteen');
                     if ($fp_fourteen_image !== $default) { ?>
           
-                      <div class="col-sm-3">
-            
-                        <?php $fp_fourteen_image = get_theme_mod('featured_property_fourteen');
-                          $feature14_id = attachment_url_to_postid($fp_fourteen_image);
-                          $image_fourteen_alt  = get_post_meta( $feature14_id, '_wp_attachment_image_alt', true ); ?>
-            
-                        <a href="<?php echo esc_url(get_theme_mod('feat_prop_fourteen_url')); ?>"><img src="<?php echo esc_url(get_theme_mod('featured_property_fourteen')); ?>" alt="<?php echo $image_fourteen_alt; ?>" class="img-responsive featured-prop-img"></a>
-                        <p class="feat-prop-title"><a href="<?php echo esc_url(get_theme_mod('feat_prop_fourteen_url')); ?>" title=""><?php echo get_theme_mod('feat_prop_fourteen_title'); ?></a></p>
-                        <p class="prop-loc"><?php echo get_theme_mod('feat_prop_fourteen_loc'); ?></p>
-                        <p class="prop-desc"><?php echo get_theme_mod('feat_prop_fourteen_desc'); ?></p>
-          
-                      </div>
+                  <div class="col-sm-3">
+        
+                    <?php $fp_fourteen_image = get_theme_mod('featured_property_fourteen');
+                      $feature14_id = attachment_url_to_postid($fp_fourteen_image);
+                      $image_fourteen_alt  = get_post_meta( $feature14_id, '_wp_attachment_image_alt', true ); ?>
+        
+                    <a href="<?php echo esc_url(get_theme_mod('feat_prop_fourteen_url')); ?>"><img src="<?php echo esc_url(get_theme_mod('featured_property_fourteen')); ?>" alt="<?php echo $image_fourteen_alt; ?>" class="img-responsive featured-prop-img"></a>
+                    <p class="feat-prop-title"><a href="<?php echo esc_url(get_theme_mod('feat_prop_fourteen_url')); ?>" title=""><?php echo get_theme_mod('feat_prop_fourteen_title'); ?></a></p>
+                    <p class="prop-loc"><?php echo get_theme_mod('feat_prop_fourteen_loc'); ?></p>
+                    <p class="prop-desc"><?php echo get_theme_mod('feat_prop_fourteen_desc'); ?></p>
+      
+                  </div>
         
                     <?php }
                     $fp_fifteen_image = get_theme_mod('featured_property_fifteen');
                     if ($fp_fifteen_image !== $default) { ?>
           
-                      <div class="col-sm-3">
-                        
-                        <?php $fp_fifteen_image = get_theme_mod('featured_property_fifteen');
-                              $feature14_id = attachment_url_to_postid($fp_fifteen_image);
-                              $image_fifteen_alt  = get_post_meta( $feature14_id, '_wp_attachment_image_alt', true ); ?>
-  
-                        <a href="<?php echo esc_url(get_theme_mod('feat_prop_fifteen_url')); ?>"><img src="<?php echo esc_url(get_theme_mod('featured_property_fifteen')); ?>" alt="<?php echo $image_fifteen_alt; ?>" class="img-responsive featured-prop-img"></a>
-                        <p class="feat-prop-title"><a href="<?php echo esc_url(get_theme_mod('feat_prop_fifteen_url')); ?>" title=""><?php echo get_theme_mod('feat_prop_fifteen_title'); ?></a></p>
-                        <p class="prop-loc"><?php echo get_theme_mod('feat_prop_fifteen_loc'); ?></p>
-                        <p class="prop-desc"><?php echo get_theme_mod('feat_prop_fifteen_desc'); ?></p>
-                        
-                      </div>
+                  <div class="col-sm-3">
+                    
+                    <?php $fp_fifteen_image = get_theme_mod('featured_property_fifteen');
+                          $feature14_id = attachment_url_to_postid($fp_fifteen_image);
+                          $image_fifteen_alt  = get_post_meta( $feature14_id, '_wp_attachment_image_alt', true ); ?>
+
+                    <a href="<?php echo esc_url(get_theme_mod('feat_prop_fifteen_url')); ?>"><img src="<?php echo esc_url(get_theme_mod('featured_property_fifteen')); ?>" alt="<?php echo $image_fifteen_alt; ?>" class="img-responsive featured-prop-img"></a>
+                    <p class="feat-prop-title"><a href="<?php echo esc_url(get_theme_mod('feat_prop_fifteen_url')); ?>" title=""><?php echo get_theme_mod('feat_prop_fifteen_title'); ?></a></p>
+                    <p class="prop-loc"><?php echo get_theme_mod('feat_prop_fifteen_loc'); ?></p>
+                    <p class="prop-desc"><?php echo get_theme_mod('feat_prop_fifteen_desc'); ?></p>
+                    
+                  </div>
         
                     <?php }
                     $fp_sixteen_image = get_theme_mod('featured_property_sixteen');
                     if ($fp_sixteen_image !== $default) { ?>
-          
-                      <div class="col-sm-3">
+                    
+                  <div class="col-sm-3">
   
-                        <?php $fp_sixteen_image = get_theme_mod('featured_property_sixteen');
-                              $feature16_id = attachment_url_to_postid($fp_sixteen_image);
-                              $image_sixteen_alt  = get_post_meta( $feature16_id, '_wp_attachment_image_alt', true ); ?>
-  
-                        <a href="<?php echo esc_url(get_theme_mod('feat_prop_sixteen_url')); ?>"><img src="<?php echo esc_url(get_theme_mod('featured_property_sixteen')); ?>" alt="<?php echo $image_sixteen_alt; ?>" class="img-responsive featured-prop-img"></a>
-                        <p class="feat-prop-title"><a href="<?php echo esc_url(get_theme_mod('feat_prop_sixteen_url')); ?>" title=""><?php echo get_theme_mod('feat_prop_sixteen_title'); ?></a></p>
-                        <p class="prop-loc"><?php echo get_theme_mod('feat_prop_sixteen_loc'); ?></p>
-                        <p class="prop-desc"><?php echo get_theme_mod('feat_prop_sixteen_desc'); ?></p>
-                        
-                      </div>
+                    <?php $fp_sixteen_image = get_theme_mod('featured_property_sixteen');
+                          $feature16_id = attachment_url_to_postid($fp_sixteen_image);
+                          $image_sixteen_alt  = get_post_meta( $feature16_id, '_wp_attachment_image_alt', true ); ?>
+
+                    <a href="<?php echo esc_url(get_theme_mod('feat_prop_sixteen_url')); ?>"><img src="<?php echo esc_url(get_theme_mod('featured_property_sixteen')); ?>" alt="<?php echo $image_sixteen_alt; ?>" class="img-responsive featured-prop-img"></a>
+                    <p class="feat-prop-title"><a href="<?php echo esc_url(get_theme_mod('feat_prop_sixteen_url')); ?>" title=""><?php echo get_theme_mod('feat_prop_sixteen_title'); ?></a></p>
+                    <p class="prop-loc"><?php echo get_theme_mod('feat_prop_sixteen_loc'); ?></p>
+                    <p class="prop-desc"><?php echo get_theme_mod('feat_prop_sixteen_desc'); ?></p>
+                    
+                  </div>
         
                     <?php } ?>
     
@@ -325,14 +325,3 @@
     </div>
   
   <?php }
-  
-  
-  add_action( 'wp_enqueue_scripts', 'add_front_page_listing_slider_scripts' );
-  function add_front_page_listing_slider_scripts() {
-    if(is_home() || is_front_page()) {
-      // wp_enqueue_style('bootstrap4-5', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css', array(), '4.5.0', all );
-     // wp_enqueue_script('jQuery-351', 'https://code.jquery.com/jquery-3.5.1.min.js', array('jQuery'), '3.5.1', true);
-     // wp_enqueue_script('popper-js-fp-slider', 'https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', array(), '', true);
-     // wp_enqueue_script('bootstrapcdn2', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js', array(), '', true);
-    }
-  }
