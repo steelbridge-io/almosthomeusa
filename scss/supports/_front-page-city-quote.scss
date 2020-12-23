@@ -1,5 +1,10 @@
 /** SCSS Front Page Top Section: where the city search and request a quote is.
 ------------------------------------------------------------------------------------ */
+
+.front-page-wrap {
+  overflow: hidden;
+}
+
 #carousel {
   .flex-direction-nav {
     top: 6% !important;
@@ -12,6 +17,7 @@
 }
 .card.cta {
   position: relative;
+  z-index: 1;
   width: 100%;
   border: none;
   border-radius: 0;
@@ -19,6 +25,8 @@
   background-repeat: no-repeat;
   background-position: center;
   .card-body.home-city-search {
+    position: relative;
+    z-index: 3;
     .row {
       margin-bottom: 0;
       .col-12 {
@@ -42,6 +50,17 @@
     margin: 4.2em auto;
   }
 }
+.card.cta:after {
+  content: "";
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+}
+
 .inner.container {
   overflow: hidden;
 }
@@ -57,13 +76,33 @@
     }
   }
 }
+.well.bg-gradient {
+  overflow: visible;
+  border: none;
+  position: relative;
+  z-index: 5;
+  padding: 1.618em 0;
+  nav {
+    #nav {
+      ul#menu-main-nav {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
 
 .row.city-search-row {
   padding: 1em;
-  margin-top: 2.618em;
+  margin-top: 0;
+  margin-bottom: 0;
   height: auto;
+  align-items: center;
   .feature {
     height: auto;
+    .city-search-wrapper {
+      width: 100%;
+    }
     .columns {
       height: auto;
       .home-city-search {

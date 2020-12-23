@@ -29,7 +29,7 @@
   padding: 0;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
   position: relative;
-  z-index: 999;
+  z-index: 1;
 }
 .yellow-bg-gradient {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));

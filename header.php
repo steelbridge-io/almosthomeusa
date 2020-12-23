@@ -120,14 +120,13 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
     <?php if ( is_home() ) { ?>
     
   <div class="inner container">
-    <div class="well bg-transparent">
+    <div class="well bg-gradient">
       <?php ct_nav(); ?>
     </div>
-    
+    <div class="front-page-wrap bg-gradient">
     <div class="row city-search-row d-flex">
       <div class="col-md-4 feature d-flex">
-        <div class="10 columns">
-        
+        <div class="city-search-wrapper">
         <div class="home-city-search">
         <?php
         include 'city-search.php'; ?>
@@ -172,15 +171,10 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
     </div>
     
     <div id="carousel" style="border:0px">
-      <h1>Almost Home Featured Listings</h1>
+     <!-- <h1>Featured Listings</h1> -->
       <?php do_action('front-page-carousel'); ?>
     </div>
-    
-    
-    
-    
-    
-    
+    </div>
   </div>
 
   <?php } ?>

@@ -9,7 +9,10 @@
     
     <div id="front-page-listing-carousel" class="container">
       <div class="col-md-12">
-        <div class="well bg-gradient">
+        <div class="well">
+  
+          <h1>Featured Listings</h1>
+          
           <div id="fp-featured-carousel" class="carousel slide">
           
             <!-- Carousel items -->

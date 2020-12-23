@@ -23,7 +23,7 @@ if (!empty($_GET['search-listings'])) {
 
 get_header(); ?>
 
-<div id="carousel" class="flexslider" style="border:0px;">
+<div id="front-page-info" style="border:0px;">
   <h1>Corporate Housing By Almost Home USA</h1>
 </div>
 

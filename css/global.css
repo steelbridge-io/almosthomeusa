@@ -182,6 +182,8 @@ body #right-sidebar ul.nearby-properties {
   padding: 0 20px 20px 20px; }
 
 .home-city-search {
+
+  /***********************
   background-color: #1f6b75;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#1f6b75), to(#9fc6d7));
   background-image: -webkit-linear-gradient(top, #1f6b75, #9fc6d7);
@@ -194,7 +196,11 @@ body #right-sidebar ul.nearby-properties {
   border-radius: 3px 3px 3px 3px;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
   color: #DCDEE0;
-  padding: 10px 20px; }
+  padding: 14px 20px;
+
+  *************************/
+
+}
   .home-city-search select {
     width: 100%;
     margin-bottom: 12px; }
